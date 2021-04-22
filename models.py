@@ -11,11 +11,6 @@ import torch.nn.functional as F
 
 
 
-
-
-
-
-
 def model(pretrained, requires_grad):
     '''Using a pretrained resnet50 and attaching fully connected layers to the last layer.'''  
 
